@@ -1,30 +1,30 @@
 # 🖼️ Python Watermarking GUI App
 
-A powerful and user-friendly Python GUI application to batch watermark images with advanced customization. Supports drag-and-drop, live preview, transparency control, rotation, padding, user preference saving, and more.
+A powerful, user-friendly, and fully customizable Python GUI application to batch watermark images. Built with Tkinter and Pillow, this app supports drag-and-drop, live preview, transparency, rotation, padding, user preferences, undo, and more.
 
 ---
 
 ## 🔧 Features
 
-- ✅ **Drag and Drop** images and watermark logo  
-- ✅ **Interactive Logo Resizing**  
-- ✅ **Transparency (Opacity) Slider**  
-- ✅ **Rotation and Padding** controls  
-- ✅ **Batch Processing** of multiple images  
-- ✅ **Preview** before applying watermark  
-- ✅ **Organized UI** with clean layout  
+- ✅ **Drag and Drop** support for images and logo  
+- ✅ **Interactive Watermark Preview**  
+- ✅ **Resizable Logo with Scaling Slider**  
+- ✅ **Transparency (Opacity) Control**  
+- ✅ **Rotation & Padding** for precise placement  
+- ✅ **Batch Watermarking** for folders  
+- ✅ **Undo Functionality** to reset preview  
 - ✅ **Custom Output Directory Selection**  
-- ✅ **Undo (Preview Reset) Functionality**  
-- ✅ **Tooltips** for all controls  
-- ✅ **User Preference Saving** (logo path, opacity, rotation, padding, etc.)  
-- ✅ **Error Handling** with popup dialogs  
-- ✅ **Progress Indicators**
+- ✅ **Live Progress Bar** during processing  
+- ✅ **Tooltips** for better UX  
+- ✅ **Error Handling** with dialogs  
+- ✅ **User Preference Saving** (logo path, opacity, rotation, padding, etc.)
 
 ---
 
-## 📸 Screenshot
+## 🖼️ Screenshots
 
-![image](https://github.com/user-attachments/assets/bba97a63-5501-4e1d-947f-81eb8f5b41f8)
+![Preview Screenshot](https://github.com/lovnishverma/watermarking-app/assets/preview.png)
+*(Update with actual screenshot)*
 
 ---
 
@@ -32,8 +32,8 @@ A powerful and user-friendly Python GUI application to batch watermark images wi
 
 - Python 3.8+
 - `Pillow`
-- `Tkinter` (usually included with Python)
-- `ttkthemes` (optional, for themed widgets)
+- `Tkinter` (bundled with Python)
+- `ttkthemes` *(optional, for better styling)*
 
 Install dependencies:
 
@@ -43,16 +43,16 @@ pip install pillow
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. Clone this repository:
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/lovnishverma/watermarking-app.git
 cd watermarking-app
 ```
 
-2. Run the app:
+2. **Run the app:**
 
 ```bash
 python watermark.py
@@ -60,52 +60,68 @@ python watermark.py
 
 ---
 
-## 📦 To Create .exe File (Windows)
+## 🧠 How It Works
 
-Use `pyinstaller`:
+1. **Import Images** via drag-and-drop or file browser  
+2. **Load a Logo** using "Browse Logo" or drag-and-drop  
+3. **Adjust Settings**:  
+   - Opacity slider  
+   - Logo scale  
+   - Rotation  
+   - Padding (Top/Bottom/Left/Right)  
+4. **Preview** watermark on the first image  
+5. **Choose Output Directory** or use the default  
+6. **Apply Watermark to All** images in batch  
+7. Use **Undo Preview** to reset the current preview
+
+---
+
+## 📦 Build Windows Executable
+
+Create a standalone `.exe` with `PyInstaller`:
 
 ```bash
 pip install pyinstaller
 pyinstaller --noconfirm --onefile --windowed --icon=logo.ico watermark.py
 ```
 
-- The `.exe` will be in the `dist/` folder.
-- Make sure `logo.ico` is in the project root or update the path.
+- Executable will be available in `dist/` directory  
+- Update `--icon` path if needed
 
 ---
 
-## 🧠 How It Works
+## 💾 User Preferences
 
-1. **Drag and drop** images or use "Browse Images"
-2. Load a **logo** with "Browse Logo" or drag-and-drop
-3. Adjust **opacity**, **scale**, **rotation**, and **padding**
-4. Preview the result on one image
-5. Set an **output folder** or use the default one
-6. Click **"Apply Watermark to All"** to batch watermark images
+The app remembers:
+- Logo path
+- Opacity level
+- Rotation and padding
+- Last output directory
+
+This ensures a smoother experience in future sessions.
 
 ---
 
-## 💡 Future Enhancements
+## 💡 Planned Features
 
-- [ ] Border/stroke around watermark  
-- [ ] Text watermark support  
-- [ ] Keyboard shortcuts  
-- [ ] Output image resizing  
-- [ ] Multiple watermark positions
+- [ ] Add watermark **text** option  
+- [ ] Add **border/stroke** around watermark  
+- [ ] Enable **image resizing** after watermark  
+- [ ] **Keyboard shortcuts** for faster control  
+- [ ] Support **custom watermark position presets**
 
 ---
 
 ## 👨‍💻 Author
 
 **Lovnish Verma**  
-Passionate developer | AI & Backend Engineer | Open Source Contributor  
+Developer | Backend & AI Enthusiast | Open Source Contributor  
+
 [GitHub](https://github.com/lovnishverma) • [LinkedIn](https://linkedin.com/in/lovnishverma)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more info.
 ```
-
----
