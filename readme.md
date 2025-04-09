@@ -1,4 +1,3 @@
-```markdown
 # 🖼️ Python Watermarking GUI App
 
 A powerful and user-friendly Python GUI application to batch watermark images with advanced customization. Supports drag-and-drop, live preview, transparency control, rotation, padding, user preference saving, and more.
@@ -25,7 +24,8 @@ A powerful and user-friendly Python GUI application to batch watermark images wi
 
 ## 📸 Screenshot
 
-![Preview Screenshot](screenshot.png)
+![image](https://github.com/user-attachments/assets/bba97a63-5501-4e1d-947f-81eb8f5b41f8)
+
 ---
 
 ## 🐍 Requirements
