@@ -24,7 +24,7 @@ A powerful, user-friendly, and fully customizable Python GUI application to batc
 ## 🖼️ Screenshots
 
 ![Preview Screenshot](https://github.com/lovnishverma/watermarking-app/assets/preview.png)
-*(Update with actual screenshot)*
+
 
 ---
 
